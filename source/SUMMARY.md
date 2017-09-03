@@ -14,6 +14,7 @@
 * [Algorithm](algorithm/README.md)
 * [Python](python/README.md)
 * [Cache](cache/README.md)
+* [Machine learning](ml/README.md)
 * [Project](project/README.md)
     * [Badminton](project/badminton/README.md)
     * [Soccer](project/soccer/README.md)
@@ -21,4 +22,3 @@
     * [北看台](project/beikantai/README.md)
     * [Eagle](project/eagle/README.md)
     * [Tennis](project/tennis/README.md)
-

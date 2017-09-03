@@ -168,3 +168,6 @@
  * ``MVP``中的``P``不应该有``V``相关的东西，那么如何解耦。使用事件总线(``EventBus``, ``RxBus``)或者``Dagger2``依赖注入
  * ``RecyclerView``中每个``item``需要发送请求，改如何写。直接在``adapter``中写不好。使用``Event``的方式通知``Domain Layer``发送网络请求，然后刷新。也可以使用``ContentObserver``来监听数据库变化
  * ``Realm``和``RxJava``的配合使用
+
+ ### 搜狗输入法
+ #### 

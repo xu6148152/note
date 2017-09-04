@@ -34,6 +34,7 @@
 
  * 描述一下``android``的系统架构
    * ``Linux kernel``
+   * `HAL`
    * ``Runtime``
    * ``Framework``
    * ``Applicatoin``
@@ -88,6 +89,7 @@
      2. 面向连接，三次握手保持连接
      3. 面向字节流
      4. 头部开销20字节
+     5. 四次分手
        
      * **``UDP``** 
      
@@ -128,7 +130,6 @@
  * ``WindowManager``
  * ``Java虚拟机``和``Dalvik``虚拟机
    * ``Java``虚拟机基于栈，``Dalvik``基于寄存器
-   * ``Java``虚拟机基于寄存器，``Dalvik``基于``dex``
    * ``Dalvik``虚拟机已被修改为只使用32位的索引，以简化解释器。``Dalvik``虚拟机的堆和栈的参数可以通过``-Xms``和``-Xmx``更改
  
  * 优化
@@ -139,7 +140,7 @@
      * ``framework: Trace.traceBegin(), Trace.traceEnd(), app: Trace.beginSection(), Trace.endSection()``
 
 ### TCL(工具开发，清理大师)
- * ``PICASSO``源码分析:特点
+ * ``PICASSO``源码分析:特点，批量请求处理
  * 第三方库再封装便宜替换
  * 架构特点:如果避免内存泄露
  * ``Binder``分析，进程间通讯
@@ -170,4 +171,9 @@
  * ``Realm``和``RxJava``的配合使用
 
  ### 搜狗输入法
- #### 
+ #### 算法
+ #### 包大小
+ #### View绘制流程
+ #### 换肤
+
+ ### 凯叔讲故事

@@ -225,8 +225,10 @@ gc算法
 复制算法
 分代收集算法
 
-新生代(eden)和老年代(perm)
+新生代和老年代(perm)
+新生代包括eden和Survivor，比例在8:1:1
 新生代采用复制算法,老年代采用标记整理算法
+
 
 ### Http/Https
 * ssl加密传输，http明文传输
@@ -268,10 +270,7 @@ Tinker
 MediaCodec ffmpeg
 
 ### Framework源码
-Binder(C/S)
-Activity
-ActivityManagerService
-ActivityManagerNative
+View绘制
 
 ### NDK/JNI
 android.mk:包括需要编译模块
@@ -283,3 +282,16 @@ application.mk: 编译的平台(ARMEABI), 工具链(GCC4.8), 标准库
 
 Android Studio2.2.之后能够使用CMake(clang)
 ### Binder
+Binder(C/S)
+Activity
+ActivityManagerService
+ActivityManagerNative
+ServiceManager
+
+###Java内存模型
+分为主内存和工作内存
+主内存所有线程共享，工作内存各自线程独享
+保证数据准确性，规定8种操作必须是原子性
+volatile保证数据可见性。保证数据不被重排序
+先行发生原则
+

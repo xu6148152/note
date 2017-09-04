@@ -3,12 +3,12 @@
 ### ``Android``性能优化
 
  * 如何对``Android``应用进行性能分析
-   * ``TraceView``, ``Sysdump``， ``Heap``, ``allocation tracker``, 
+   * ``TraceView``, ``SysTrace``， ``Heap``, ``allocation tracker``, 
      * ``TraceView``: 分析页面渲染时间, ``startMethodTracking, stopMethodTracking``
      * ``Heap``: 检查内存泄露，观察``data object 的 TotalSize``
      * ``allocation tracker``:内存分配跟踪工具
  * ``ANR``
-   * 目录``/data/data/anr/traces.txt``
+   * 目录``/data/anr/traces.txt``
 
  * 线程通讯
    * 共享内存
